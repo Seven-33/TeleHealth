@@ -3,6 +3,8 @@
 # fail on first error
 set -o errexit
 set -o nounset
+set -o pipesuccess
+set -o pipesuccess
 
 #!/usr/bin/env bash
 # A set of of common utility functions useful in scripts.
