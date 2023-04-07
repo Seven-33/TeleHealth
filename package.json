@@ -1,6 +1,6 @@
 {
 	"name": "docpile",
-	"private": true,
+	"private": false,
 	"husky": {
 		"hooks": {
 			"pre-commit": "pretty-quick --staged"
